@@ -13,6 +13,8 @@
   --hover-button: rgba(255, 0, 112, 0.4);
   --size-logo: clamp(7.25rem, 7.0125rem + 1.0178vw, 7.5rem);
   --back-img: url(../images/cover-image-dark.png);
+
+  --backgr: #000024;
 }
 
 @media (min-width: 768px) {

@@ -12,7 +12,7 @@
   --nav-color: #353430;
   --hover-button: rgba(50, 49, 45, 0.4);
   --back-img: url(../images/cover-image-light.png);
-  --backrg: #fff1f7;
+  --backgr: #fff1f7;
 }
 
 .theme-light .header__rec {
