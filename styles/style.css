@@ -2,21 +2,18 @@
 
 .page {
   margin: 0;
-}
-
-main {
+  background-image: var(--back-img);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 3;
   background-color: var(--backgr);
 }
 
 .header {
   position: relative;
   height: 668px;
-
-  background-image: var(--back-img);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* background-attachment: fixed; */
 }
 .theme-light .header {
   height: 605px;
@@ -120,7 +117,7 @@ main {
 }
 
 .big-title {
-  margin: 65px 0 55px;
+  margin: 69px 0 53px;
   font-size: var(--size-logo);
   font-weight: 800;
   line-height: 82.5%;
@@ -128,6 +125,11 @@ main {
   text-shadow: 4px 4px var(--bkg-text);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.theme-light .big-title {
+  margin-top: 70px;
+  margin-bottom: 53px;
 }
 
 .header__text {
@@ -242,8 +244,6 @@ main {
 
 .footer {
   position: relative;
-
-  background-color: var(--backgr);
 }
 
 .footer .big-title {
