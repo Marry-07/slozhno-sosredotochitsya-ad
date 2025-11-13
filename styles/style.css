@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+main {
+  background-color: var(--backgr);
+}
+
 .header {
   position: relative;
   height: 668px;
@@ -66,7 +70,7 @@
 }
 
 .theme-light .header__theme-menu {
-  margin-top: 70px;
+  margin-top: 75px;
   margin-right: 10px;
 }
 
@@ -165,7 +169,6 @@
 }
 .word-with-shadow:focus {
   outline: none;
-  outline: 1px solid var(--main-text-color);
 }
 .word-with-shadow:focus-visible {
   outline: 1px solid var(--main-text-color);
@@ -226,7 +229,6 @@
 
 .footer {
   position: relative;
-  /* height: 667px; */
 }
 
 .footer .big-title {
@@ -298,6 +300,9 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     padding-bottom: 80px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .focus-hard .main-title {
     grid-column: 1;
@@ -311,6 +316,10 @@
     width: 471px;
     height: 23px;
     margin-top: 60px;
+  }
+
+  .focus-hard .text-main {
+    width: 472px;
   }
 
   .temp-two .subtitle {
@@ -336,6 +345,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 0 20px 80px;
+    column-gap: 20px;
   }
   .gold-fish .main-title {
     grid-column: 1;
@@ -379,6 +389,10 @@
     padding: 0 20px 60px;
   }
 
+  .gallery .subtitle {
+    margin-bottom: 20px;
+  }
+
   .gallery__picture {
     height: 780px;
     display: grid;
@@ -420,6 +434,14 @@
 
   .footer {
     height: 1024px;
+  }
+  .footer::after {
+    top: 20px;
+    right: 20px;
+  }
+  .footer::before {
+    bottom: 20px;
+    left: 20px;
   }
   .footer .big-title {
     padding-top: 462px;
@@ -490,14 +512,38 @@
   .focus-hard {
     padding-left: 20px;
     padding-right: 20px;
+    /* column-gap: 20px; */
+  }
+
+  .focus-hard .main-title {
+    width: 315px;
   }
 
   .focus-hard .subtitle {
     width: 100%;
   }
 
+  .text-main--text-one {
+    width: 648px;
+  }
+  .text-main--text-two {
+    width: 648px;
+  }
+
   .conc-attention .main-title {
     width: 315px;
+  }
+
+  .gold-fish {
+    column-gap: 20px;
+  }
+
+  .gold-fish .main-title {
+    width: 315px;
+  }
+
+  .gold-fish .text-main {
+    width: 649px;
   }
 
   .attention__wrap {
@@ -509,6 +555,10 @@
   .gallery__picture {
     height: 1048px;
     grid-template-rows: 260px 315px 433px;
+  }
+
+  .gallery .subtitle {
+    margin-bottom: 20px;
   }
 
   .footer {
