@@ -124,9 +124,6 @@
 }
 
 @media (prefers-color-scheme: light) and (min-width: 768px) {
-  .header {
-    height: 1024px;
-  }
 
   .header {
     height: 1024px;
@@ -195,15 +192,10 @@
     right: 0;
   }
 
-  .header::before {
+  /* .header::before {
     bottom: 20px;
     left: 19px;
-  }
-
-  .header::after {
-    top: 20px;
-    right: 20px;
-  }
+  } */
 
   .header::after {
     top: 20px;
@@ -213,10 +205,10 @@
   .big-title {
     margin: 176px 0 162px;
   }
-  .ttext {
+  /* .ttext {
     display: flex;
     justify-content: flex-end;
-  }
+  } */
   .header__text {
     margin: 0;
     width: 364px;
@@ -239,12 +231,12 @@
     margin-top: 0px;
     padding-top: 60px;
   }
-  .focus-hard .subtitle {
+  /* .focus-hard .subtitle {
     grid-column: 2;
     width: 471px;
     height: 23px;
     margin-top: 59px;
-  }
+  } */
 
   .focus-hard .text-main {
     width: 472px;
@@ -262,12 +254,12 @@
     grid-row: 2;
   }
 
-  .conc-attention {
+  /* .conc-attention {
     padding: 0 20px 80px;
   }
   .conc-attention .main-title {
     width: 150px;
-  }
+  } */
 
   .gold-fish {
     display: grid;
@@ -480,11 +472,11 @@
     margin-top: 0;
     padding-top: 0;
   }
-
+/* 
   .focus-hard .subtitle {
     width: 100%;
     margin-top: 0;
-  }
+  } */
 
   .focus-hard .temp-two .subtitle {
     margin-top: 10px;
