@@ -192,10 +192,10 @@
     right: 0;
   }
 
-  .header::before {
+  /* .header::before {
     bottom: 20px;
     left: 19px;
-  }
+  } */
 
   .header::after {
     top: 20px;
@@ -384,9 +384,9 @@
 
   
 
-  .header__theme-menu {
+  /* .header__theme-menu {
     padding-top: 18px;
-  }
+  } */
 
   .header .big-title {
     margin-bottom: 114px;
@@ -436,10 +436,10 @@
     right: 20px;
   }
 
-  .header::after {
+  /* .header::after {
     top: 20px;
     right: 20px;
-  }
+  } */
   .header::before {
     bottom: 20px;
     left: 20px;
@@ -465,11 +465,11 @@
     padding-bottom: 80px;
   }
 
-  .focus-hard .main-title {
+  /* .focus-hard .main-title {
     width: 315px;
     margin-top: 0;
     padding-top: 0;
-  } 
+  }  */
 /* 
   .focus-hard .subtitle {
     width: 100%;
